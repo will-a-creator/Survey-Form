@@ -1,0 +1,111 @@
+main{
+  background-image: linear-gradient(to right, gray, yellow) 
+}
+#title{
+  text-align: center;
+  font-family: Arial, Helvetica, Arial, sans-serif;
+  text-decoration: underline;
+  color: white;
+   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+#description{
+  margin-top: -15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+#name{
+  display: flex;
+  align-items: center;
+}
+form{
+  padding: 2.5rem 0.625rem;
+  background-color: yellow;
+  background-image: url("https://wallpapercave.com/wp/wc1802833.jpg");
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.label, #sad, #twoTap{
+  text-align:center;
+  font-family: sans-serif;
+  color: #FFFC00;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  font-size: 20px;
+  
+  display: block;
+  width: 60%;
+  height: 2rem;
+  padding: .035rem .8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+.form-control{
+  display: block;
+  width: 60%;
+  height: 2rem;
+  padding: .035rem .8rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  color: black;
+}
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: .15rem;
+  min-width: 1.25rem;
+}
+#oneTap{
+  text-align:center;
+  font-family: sans-serif;
+  color: yellow;
+  text-shadow: 0 0 2px black, 0 0 2px white, 0 0 2px black, 0 0 2px black;
+  font-size: 15px;
+  display: block;
+  width: 60%;
+  height: 2rem;
+  padding: .035rem .8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#lab{
+  display:block;
+  margin: auto;
+    text-align: center;
+  color: yellow;
+  text-shadow: 0 0 2px black, 0 0 2px white, 0 0 2px black, 0 0 2px black;
+}
+.input-text{
+  display: block;
+  margin: auto;
+  min-height: 120px;
+  width: 60%;
+  padding: 0.9rem;
+  resize: vertical;
+}
+#button{
+  display:block;
+  margin:auto;
+  background-color: yellow;
+}
